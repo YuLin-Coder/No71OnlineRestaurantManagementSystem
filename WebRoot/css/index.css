@@ -1,0 +1,42 @@
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:50px 0px 0px 0px;
+	background-color:#5c86ad;
+	font-size:12px;
+	color:#133B61;
+}
+/*index“≥√ÊCSS…Ë÷√*/
+.tab1{
+	background-image:url(/dingcan/images/dx_01.gif);
+	background-repeat:no-repeat;
+	height:160px;
+	width:708px;
+}
+.tab2{
+	background-image:url(/dingcan/images/dx_02.gif);
+	background-repeat:no-repeat;
+	width:273px;
+	height:200px;
+	padding-left:335px;
+	padding-right:90px;
+	font-size:12px;
+	letter-spacing: 3px;
+	color:#18345A;
+	padding-top:10px;
+}
+.tab3{
+	background-image:url(/dingcan/images/dx_03.gif);
+	background-repeat:no-repeat;
+	width:708px;
+	height:216px;
+}
+.id{
+	height:18px;
+	border:1px solid #255FAD;
+	filter: Alpha(Opacity=60);
+}
+input:hover{
+	background-color:#A0D1FF;
+}

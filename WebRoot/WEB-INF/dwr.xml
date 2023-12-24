@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://getahead.org/dwr/dwr20.dtd">
+<dwr> <!-- 实现AJAX框架的配置信息 -->
+     <allow>
+          <create creator="new" javascript="loginService"> <!-- 指定javascript中可以访问的java类名，new意味着DWR应当调用类的默认构造函数来获得实例 -->
+              <param name="class" value="com.web.service.loginService"></param>
+          </create>
+          
+          <create creator="new" javascript="cartService">
+              <param name="class" value="com.web.service.cartService"></param>
+          </create>
+          
+          <convert converter="bean" match="com.web.orm.Tcatelog"> <!-- 设置转换器 -->
+              <param name="include" value="id,name"></param>
+          </convert>
+     </allow>
+</dwr>

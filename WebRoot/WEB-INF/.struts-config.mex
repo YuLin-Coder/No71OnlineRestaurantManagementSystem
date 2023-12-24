@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/catelogAction.do" location="650,750" dimension="159,104" />
+  <StrutsActivity path="/goodsAction.do" location="50,950" dimension="154,104" />
+  <StrutsActivity path="/userAction.do" location="1250,450" dimension="141,104" />
+  <StrutsActivity path="/orderAction.do" location="1250,850" dimension="149,104" />
+  <StrutsActivity path="/indexAction.do" location="650,1150" dimension="147,104" />
+  <StrutsActivity path="/buyAction.do" location="50,1350" dimension="137,104" />
+  <StrutsActivity path="msg;6" location="50,50" dimension="149,87" />
+  <StrutsActivity path="success;6" location="950,50" dimension="168,87" />
+  <StrutsActivity path="/admin/catelog/catelogMana.jsp" location="950,850" dimension="222,53" />
+  <StrutsActivity path="/admin/goods/goodsDetailHou.jsp" location="650,950" dimension="236,53" />
+  <StrutsActivity path="/qiantai/goods/goodsByCatelog.jsp" location="50,1150" dimension="241,53" />
+  <StrutsActivity path="/admin/goods/goodsMana.jsp" location="350,950" dimension="212,53" />
+  <StrutsActivity path="/qiantai/goods/goodsDetailQian.jsp" location="350,1150" dimension="242,53" />
+  <StrutsActivity path="/admin/user/userMana.jsp" location="50,350" dimension="186,53" />
+  <StrutsActivity path="/admin/order/orderMana.jsp" location="1250,1050" dimension="202,53" />
+  <StrutsActivity path="/qiantai/index.jsp" location="1250,1250" dimension="132,53" />
+  <StrutsActivity path="/qiantai/order/orderSubmit.jsp" location="950,1450" dimension="212,53" />
+  <StrutsActivity path="/qiantai/order/orderDetail.jsp" location="1250,1450" dimension="205,53" />
+  <StrutsActivity path="/qiantai/order/myorder.jsp" location="650,1350" dimension="189,53" />
+  <StrutsActivity path="/common/msg.jsp" location="350,150" dimension="138,53" />
+  <StrutsActivity path="/common/success.jsp" location="650,150" dimension="157,53" />
+  <StrutsActivity path="/admin/gonggao/gonggaoDetail.jsp" location="650,550" dimension="244,53" />
+  <StrutsActivity path="/qiantai/gonggao/gonggaoDetailQian.jsp" location="50,750" dimension="274,53" />
+  <StrutsActivity path="/admin/gonggao/gonggaoMana.jsp" location="350,550" dimension="244,53" />
+  <StrutsActivity path="/indexPage.jsp" location="350,50" dimension="124,48" />
+  <StrutsActivity path="/login.jsp" location="650,50" dimension="100,48" />
+  <StrutsActivity path="/admin/user/userQuMana.jsp" location="350,350" dimension="203,53" />
+  <StrutsActivity path="/auser/jine/userJine.jsp" location="650,350" dimension="166,53" />
+  <StrutsActivity path="/admin/user/userCunMana.jsp" location="950,450" dimension="208,53" />
+  <StrutsActivity path="/admin/gonggaoMana.jsp" location="50,550" dimension="185,53" />
+  <StrutsActivity path="/admin/gonggao/gonggaoDetailQian.jsp" location="950,650" dimension="271,53" />
+  <StrutsActivity path="/admin/goods/goodsByCatelog.jsp" location="950,1050" dimension="238,53" />
+  <StrutsActivity path="/admin/index/indexMana.jsp" location="950,1250" dimension="198,53" />
+  <StrutsActivity path="/qiantai/buy.jsp" location="350,1350" dimension="122,53" />
+  <StrutsActivity path="/qiantai/denglu/userLogin.jsp" location="50,1550" dimension="203,53" />
+  <StrutsTransition id="msg;6,null,/common/msg.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/catelogAction.do,catelogMana,/admin/catelog/catelogMana.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="809,802" />
+      <AbsolutePoint location="1061,802" />
+      <AbsolutePoint location="1061,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/indexAction.do,index,/qiantai/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="797,1202" />
+      <AbsolutePoint location="1316,1202" />
+      <AbsolutePoint location="1316,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodsDetailHou,/admin/goods/goodsDetailHou.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="204,1018" />
+      <AbsolutePoint location="768,1018" />
+      <AbsolutePoint location="768,1003" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/buyAction.do,orderDetail,/qiantai/order/orderDetail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="118,1402" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodsDetailQian,/qiantai/goods/goodsDetailQian.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="127,1054" />
+      <AbsolutePoint location="127,1069" />
+      <AbsolutePoint location="471,1069" />
+      <AbsolutePoint location="471,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userAction.do,userMana,/admin/user/userMana.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,518" />
+      <AbsolutePoint location="143,518" />
+      <AbsolutePoint location="143,403" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodsByCatelog,/qiantai/goods/goodsByCatelog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="97,1054" />
+      <AbsolutePoint location="97,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/orderAction.do,orderMana,/admin/order/orderMana.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1324,954" />
+      <AbsolutePoint location="1324,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/buyAction.do,myorder,/qiantai/order/myorder.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="187,1418" />
+      <AbsolutePoint location="714,1418" />
+      <AbsolutePoint location="714,1403" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="success;6,null,/common/success.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodsMana,/admin/goods/goodsMana.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="204,988" />
+      <AbsolutePoint location="350,988" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/buyAction.do,orderSubmit,/qiantai/order/orderSubmit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="118,1454" />
+      <AbsolutePoint location="118,1476" />
+      <AbsolutePoint location="950,1476" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

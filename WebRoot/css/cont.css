@@ -1,0 +1,110 @@
+/* CSS Document */
+
+body{
+	padding:0px;
+	margin:0px;
+	font-size:12px;
+}
+/*==========TOP页面设置==========*/
+.top_tab{
+	background-image:url(/dingcan/images/top_01.gif);
+	background-repeat:repeat-x;
+	height:90px;
+	width:100%;
+}
+.top_logo{
+	width:197px;
+	background-image:url(/dingcan/images/top_02.gif);
+}
+.top_tex{
+	background:url(/dingcan/images/top_03.gif) no-repeat;
+}
+.top_r{
+	width:361px;
+	background:url(/dingcan/images/top_05.gif) no-repeat;
+}
+/*==========右侧页面(主内容显示部分)设置==========*/
+.right_body{
+	padding-left:5px;
+	padding-right:5px;
+}
+.right_font{
+	font-size:13px;
+	cursor:hand;
+}
+/*==========所有的图片相关连接全部写在CSS,这样是为了制作多颜色版本==========*/
+.cont_tab{
+	background-color:#4374A3;
+}
+.cont_tab_l{
+	background-image:url(/dingcan/images/r_14.gif);
+	background-repeat:no-repeat;
+	width:12px;
+	height:13px;
+}
+.cont_tab_m{
+	background-image:url(/dingcan/images/r_16.gif);
+	background-repeat:repeat-x;
+	height:13px;
+	}
+.cont_tab_r{
+	background-image:url(/dingcan/images/r_14_r.gif);
+	background-repeat:no-repeat;
+	width:12px;
+	height:13px;
+}
+.cont_tab_bl{
+	background-image:url(/dingcan/images/r_24.gif);
+	background-repeat:no-repeat;
+	width:12px;
+	height:13px;
+}
+.cont_tab_bm{
+	background-image:url(/dingcan/images/r_29.gif);
+	background-repeat:repeat-x;
+	height:13px;
+}
+.cont_tab_br{
+	background-image:url(/dingcan/images/r_24_r.gif);
+	background-repeat:no-repeat;
+	width:12px;
+	height:13px;
+}
+/*==========LEFT页面设置==========*/
+.left_b_m{
+	line-height:13px;
+	font-size:1px;
+}
+.left_mid{
+	padding-left:2px;
+	padding-right:1px;
+}
+.menu_first_img{
+	background-image:url(/dingcan/images/l_b_05.gif);
+	background-repeat:no-repeat;
+}.menu_second_img{
+	background-image:url(/dingcan/images/l_b_03.gif);
+	background-repeat:no-repeat;
+}
+.mouse{
+	cursor:hand;
+	width:176px;
+	height:29px;
+	line-height:29px;
+
+}
+.left{
+	background-image:url(/dingcan/images/menu_26.gif);
+	height:29px;
+	padding-bottom:4px;
+}
+/*==========Foot==========*/
+#foot{
+	background-color:#4374A3;
+	height:17px;
+	font-size:12px;
+	color:#ffffff;
+	letter-spacing:3px;
+	text-align:center;
+	padding-top:3px;
+}
